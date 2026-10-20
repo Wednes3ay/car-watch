@@ -20,6 +20,8 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -40,5 +42,11 @@ jobs:
           git config user.name "car-watch"
           git config user.email "car-watch@users.noreply.github.com"
           git add state docs
-          git diff --cached --quiet || git commit -m "매물 갱신 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "매물 갱신 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
+          # 실행 중에 다른 곳(다른 계정 등)에서 올린 변경이 있으면 먼저 합친 뒤 올리기
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
