@@ -48,7 +48,7 @@ def log(*a):
 def get_json(session, url, params=None, tries=3, pause=0.25):
     for t in range(tries):
         try:
-            r = session.get(url, params=params, timeout=20)
+            r = session.get(url, params=params, timeout=12)
             if r.status_code == 200 and r.text.strip():
                 time.sleep(pause)
                 return r.json()
@@ -189,6 +189,25 @@ def exclusion_reason(d, rules):
 
 # ───────────────────────── 당근 ─────────────────────────
 
+_daangn_ok = None
+
+
+def daangn_probe():
+    """당근이 응답하는지 한 번만 확인 (막혀 있으면 당근은 통째로 건너뜀)."""
+    global _daangn_ok
+    if _daangn_ok is None:
+        try:
+            r = DAANGN.get("https://www.daangn.com/kr/search/cars/",
+                           params={"q": "레토나", "in": "역삼동-6035", "_data": "routes/kr.search.cars._index"},
+                           timeout=15)
+            _daangn_ok = r.status_code == 200 and "carPosts" in r.text
+            log(f"  당근 접속 시험: {r.status_code} {len(r.content)}바이트 → {'OK' if _daangn_ok else '막힘'}")
+        except Exception as e:
+            _daangn_ok = False
+            log(f"  당근 접속 시험: {type(e).__name__} → 막힘")
+    return _daangn_ok
+
+
 def daangn_search(keyword, region):
     name, rid = region
     data = get_json(DAANGN, "https://www.daangn.com/kr/search/cars/",
@@ -288,7 +307,10 @@ def main():
         dexc_src = cat.get("daangn_exclude") or cat.get("exclude")
         dexc = re.compile(dexc_src, re.I) if dexc_src else None
         posts = {}
+        if not daangn_probe():
+            dk = []
         for kw in dk:
+            log(f"  당근 '{kw}' 검색 중… (지금까지 {len(posts)}건)")
             for region in cfg["daangn_regions"]:
                 res = daangn_search(kw, region)
                 if res:
