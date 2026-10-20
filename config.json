@@ -1,0 +1,72 @@
+{
+  "_설명": "검색 조건. 가격은 만원, 주행거리는 km. 정규식(include/exclude)은 '모델명 + 트림'에 적용돼요.",
+  "page_title": "프로젝트카 새 매물",
+  "exclude_rules": {
+    "frame_damage": true,
+    "flood": true,
+    "total_loss": true,
+    "theft": true
+  },
+  "categories": [
+    {
+      "key": "wagon",
+      "name": "웨건",
+      "max_price": 1500,
+      "max_km": null,
+      "encar": [
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price}).)",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.현대._.ModelGroup.i40.))",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.현대._.ModelGroup.i30.))",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.현대._.ModelGroup.아반떼.))",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.기아._.ModelGroup.프라이드.))"
+      ],
+      "include": "투어링|touring|왜건|웨건|wagon|에스테이트|estate|올로드|allroad|올트랙|alltrack|아반트|avant|스포츠브레이크|슈팅브레이크|shooting|올터레인|크로스컨트리|\\bV60|\\bV70|\\bV90|\\bV50|아웃백|바리안트|variant|SW\\b|^i40 |^더 뉴 i40 |^i30 cw|i30cw",
+      "exclude": "액티브 ?투어러|그란 ?투어러|ES300h|ES350|캠리|CR-V|어코드|스페이스투어러|레거시 2\\.5i|V40 크로스|S60 크로스|살룬|스타렉스|웨건R|왜건R|XV60|XV70",
+      "daangn_keywords": ["웨건", "왜건", "투어링", "i40", "i30cw", "V60", "V90", "508SW", "308SW", "에스테이트", "슈팅브레이크", "아웃백", "바리안트", "올로드", "아반트", "스포츠브레이크"]
+    },
+    {
+      "key": "offroad",
+      "name": "각진 소형 오프로더",
+      "max_price": 3000,
+      "max_km": null,
+      "encar": [
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.Manufacturer.스즈키.)",
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.Manufacturer.다이하쯔.)",
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.Manufacturer.미쯔비시.)",
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.지프._.ModelGroup.랭글러.))",
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.Manufacturer.도요타._.Category.SUV.)",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.기아._.ModelGroup.레토나.))",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.KG모빌리티(쌍용)._.ModelGroup.코란도.))",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.(C.Manufacturer.현대._.ModelGroup.갤로퍼.))",
+        "(And.Hidden.N._.CarType.Y._.SellType.일반._.Price.range(..{max_price})._.Manufacturer.기타 제조사.)"
+      ],
+      "include": "짐니|jimny|사무라이|samurai|록스타|레토나|파제로|랭글러 \\((YJ|TJ|CJ)\\)|^뉴코란도|^코란도$|코란도 훼미리|숏보디|숏바디|FJ 크루|랜드크루저 70|테리오스|록키|웨이크",
+      "exclude": "전기차|파제로 3\\.|파제로 스포츠",
+      "daangn_keywords": ["록스타", "레토나", "사무라이", "짐니", "파제로 미니", "파제로 이오", "랭글러 YJ", "랭글러 TJ", "코란도 훼미리", "구형 코란도", "뉴코란도", "갤로퍼 숏", "테리오스"],
+      "daangn_include": "록스타|레토나|사무라이|짐니|파제로|랭글러 ?\\(?(YJ|TJ|CJ)|코란도 ?훼미리|^뉴코란도|^코란도 ?\\(?[12]세대|숏 ?보디|숏 ?바디|테리오스",
+      "daangn_exclude": "코란도 ?C|코란도 ?스포츠|투리스모|뷰티풀|파제로 ?스포츠|그랜드"
+    },
+    {
+      "key": "suv",
+      "name": "작은 SUV",
+      "max_price": 1500,
+      "max_km": 100000,
+      "encar": [
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.Mileage.range(..{max_km})._.Category.SUV.)",
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.Mileage.range(..{max_km})._.Category.경차.)",
+        "(And.Hidden.N._.CarType.N._.SellType.일반._.Price.range(..{max_price})._.Mileage.range(..{max_km})._.Category.RV.)"
+      ],
+      "include": "레니게이드|컴패스|허슬러|RAV4|포레스터|이보크|프리랜더|캐시카이|C3 에어크로스|큐브",
+      "exclude": "",
+      "daangn_keywords": ["레니게이드", "허슬러", "컴패스", "RAV4", "포레스터", "C3 에어크로스"]
+    }
+  ],
+  "daangn_regions": [
+    ["역삼동", 6035], ["종로1.2.3.4가동", 11], ["상암동", 237], ["잠실본동", 426], ["상계1동", 181],
+    ["목1동", 239], ["영등포동", 307], ["신림동", 355], ["정자동", 1339], ["장항1동", 1558],
+    ["중동", 1420], ["평촌동", 1398], ["동탄1동", 1786], ["봉담읍", 1766], ["비전1동", 1486],
+    ["풍덕천1동", 1689], ["의정부동", 4745], ["화도읍", 1590], ["장기동", 1762], ["고잔동", 1517],
+    ["중리동", 1733], ["운정1동", 1717], ["신장동", 4820], ["인창동", 1581], ["정왕동", 4578],
+    ["향남읍", 1768], ["남양읍", 1769], ["광명1동", 1448], ["송도1동", 887]
+  ]
+}

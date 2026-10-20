@@ -1,0 +1,44 @@
+name: 새 매물 확인
+
+on:
+  schedule:
+    # 한국시간 오전 8:47, 오후 8:47 (UTC 기준으로 적어요)
+    - cron: "47 23 * * *"
+    - cron: "47 11 * * *"
+  workflow_dispatch: {}   # Actions 탭에서 'Run workflow' 버튼으로 바로 실행
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 준비
+        run: pip install requests
+
+      - name: 검색
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PAGE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python watcher.py
+
+      - name: 결과 저장
+        run: |
+          git config user.name "car-watch"
+          git config user.email "car-watch@users.noreply.github.com"
+          git add state docs
+          git diff --cached --quiet || git commit -m "매물 갱신 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
+          git push

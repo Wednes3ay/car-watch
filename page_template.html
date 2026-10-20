@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1c1c1a;--sub:#6b6a66;--line:#e4e2dc;--acc:#1f6f5c;--new:#d9480f;--warn:#b42318;--chip:#efeee9}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1e1c;--ink:#ecebe6;--sub:#9b9a94;--line:#2e2d2a;--acc:#4fb39a;--new:#ff8a4c;--warn:#ff6b5b;--chip:#2a2927}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+header{position:sticky;top:0;background:var(--bg);padding:14px 16px 8px;border-bottom:1px solid var(--line);z-index:2}
+h1{font-size:19px;margin:0 0 2px}
+.meta{color:var(--sub);font-size:12.5px}
+.warn{color:var(--warn);font-size:13px;margin-top:4px}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin-top:10px;padding-bottom:2px}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font-size:14px;white-space:nowrap;cursor:pointer}
+.tab.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.filters{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:13.5px;color:var(--sub)}
+.filters label{display:flex;gap:5px;align-items:center}
+main{padding:10px 16px 40px;max-width:760px;margin:0 auto}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin:9px 0;color:inherit;text-decoration:none}
+.card.ex{opacity:.55}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.name{font-weight:600;color:inherit;text-decoration:none}
+.name:after{content:" ↗";color:var(--acc);font-weight:400}
+.price{font-weight:700;white-space:nowrap}
+.row{color:var(--sub);font-size:13.5px;margin-top:2px}
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.chip{background:var(--chip);border-radius:6px;padding:1px 7px;font-size:12.5px}
+.chip.new{background:var(--new);color:#fff;font-weight:600}
+.chip.bad{background:var(--warn);color:#fff}
+.chip.src{background:transparent;border:1px solid var(--line)}
+.outer{color:var(--sub);font-size:12.5px;margin-top:4px}
+.also{font-size:12.5px;margin-top:4px}
+.also a{color:var(--acc)}
+.empty{color:var(--sub);text-align:center;padding:40px 0}
+</style>
+</head>
+<body>
+<header>
+  <h1>__TITLE__</h1>
+  <div class="meta" id="meta"></div>
+  <div class="warn" id="warn"></div>
+  <div class="tabs" id="tabs"></div>
+  <div class="filters">
+    <label><input type="checkbox" id="onlyNew"> 최근 3일 새 매물만</label>
+    <label><input type="checkbox" id="showEx"> 제외된 차도 보기</label>
+    <label><input type="checkbox" id="onlyMan"> 수동만</label>
+  </div>
+</header>
+<main id="list"></main>
+<script>
+const DATA = __DATA__;
+const $ = id => document.getElementById(id);
+let cur = 0;
+try { cur = +localStorage.getItem('tab') || 0; } catch (e) {}
+if (cur >= DATA.categories.length) cur = 0;
+$('meta').textContent = '마지막 확인 ' + DATA.run_at;
+if (DATA.warnings && DATA.warnings.length) $('warn').textContent = '⚠ ' + DATA.warnings.join(', ');
+const daysAgo = s => (Date.now() - new Date(s + 'T00:00:00+09:00')) / 864e5;
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function tabs(){
+  $('tabs').innerHTML = DATA.categories.map((c,i)=>{
+    const n = c.items.filter(x=>!x.excluded && daysAgo(x.first_seen)<=3).length;
+    return `<button class="tab ${i===cur?'on':''}" data-i="${i}">${esc(c.name)} ${c.items.filter(x=>!x.excluded).length}${n?` · 🆕${n}`:''}</button>`;
+  }).join('');
+  document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;try{localStorage.setItem('tab',cur)}catch(e){};tabs();render();});
+}
+function render(){
+  const c = DATA.categories[cur];
+  const onlyNew=$('onlyNew').checked, showEx=$('showEx').checked, onlyMan=$('onlyMan').checked;
+  const rows = c.items.filter(x=>(showEx||!x.excluded)&&(!onlyNew||daysAgo(x.first_seen)<=3)&&(!onlyMan||/수동/.test(x.tags||'')));
+  if(!rows.length){$('list').innerHTML='<div class="empty">조건에 맞는 매물이 없어요</div>';return;}
+  $('list').innerHTML = rows.map(x=>{
+    const fresh = daysAgo(x.first_seen)<=3;
+    const chips = [`<span class="chip src">${esc(x.src)}</span>`];
+    if(fresh) chips.push(`<span class="chip new">NEW ${esc(x.first_seen.slice(5))}</span>`);
+    if(x.excluded) chips.push(`<span class="chip bad">${esc(x.excluded)}</span>`);
+    (x.tags||'').split(' · ').filter(Boolean).forEach(t=>chips.push(`<span class="chip">${esc(t)}</span>`));
+    const also = (x.also||[]).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">당근에도 있음${x.also.length>1?' '+(i+1):''}</a>`).join(' ');
+    return `<div class="card ${x.excluded?'ex':''}">
+      <div class="top"><a class="name" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a><span class="price">${(x.price||0).toLocaleString()}만</span></div>
+      <div class="row">${esc(x.year)}년 · ${(x.km/10000).toFixed(1)}만km · ${esc(x.area)}</div>
+      <div class="chips">${chips.join('')}</div>
+      ${x.outer_list?`<div class="outer">외판: ${esc(x.outer_list)}</div>`:''}
+      ${also?`<div class="also">${also}</div>`:''}
+    </div>`;
+  }).join('');
+}
+['onlyNew','showEx','onlyMan'].forEach(id=>$(id).onchange=render);
+tabs(); render();
+</script>
+</body>
+</html>
