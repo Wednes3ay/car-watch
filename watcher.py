@@ -53,8 +53,9 @@ def get_json(session, url, params=None, tries=3, pause=0.25):
                 time.sleep(pause)
                 return r.json()
             if r.status_code in (204, 404):
+                log(f"  ! {r.status_code} (빈 응답) {url[:70]}")
                 return None
-            log(f"  ! {r.status_code} {url[:90]}")
+            log(f"  ! {r.status_code} {r.text[:80]!r} {url[:70]}")
         except Exception as e:  # 네트워크 오류는 재시도
             log(f"  ! {type(e).__name__} {url[:90]}")
         time.sleep(1.5 * (t + 1))
@@ -77,8 +78,42 @@ def save(path, obj):
 
 # ───────────────────────── 엔카 ─────────────────────────
 
+ENCAR_HEADER_SETS = [
+    {"Referer": "https://www.encar.com/", "Origin": "https://www.encar.com"},
+    {"Referer": "https://www.encar.com/dc/dc_carsearchlist.do", "Origin": None},
+    {"Referer": None, "Origin": None},
+]
+_encar_hdr_ok = None
+
+
+def pick_encar_headers():
+    """엔카가 받아주는 헤더 조합을 찾는다."""
+    global _encar_hdr_ok
+    if _encar_hdr_ok is not None:
+        return _encar_hdr_ok
+    probe = {"count": "true", "q": "(And.Hidden.N._.CarType.N.)", "sr": "|PriceAsc|0|1"}
+    for i, hs in enumerate(ENCAR_HEADER_SETS):
+        for k, v in hs.items():
+            if v is None:
+                ENCAR.headers.pop(k, None)
+            else:
+                ENCAR.headers[k] = v
+        try:
+            r = ENCAR.get("https://api.encar.com/search/car/list/general", params=probe, timeout=20)
+            log(f"  엔카 접속 시험 {i + 1}: {r.status_code} {len(r.content)}바이트")
+            if r.status_code == 200 and r.content:
+                _encar_hdr_ok = True
+                return True
+        except Exception as e:
+            log(f"  엔카 접속 시험 {i + 1}: {type(e).__name__}")
+    _encar_hdr_ok = False
+    return False
+
+
 def encar_search(q):
     url = "https://api.encar.com/search/car/list/general"
+    if not pick_encar_headers():
+        return [], None
     rows, offset, total = [], 0, None
     while True:
         data = get_json(ENCAR, url, {"count": "true", "q": q, "sr": f"|PriceAsc|{offset}|500"})
