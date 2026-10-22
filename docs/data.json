@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-22 09:02",
+ "run_at": "2026-10-22 21:16",
  "categories": [
   {
    "key": "wagon",
@@ -37,6 +37,21 @@
     },
     {
      "src": "당근",
+     "id": "czmi847jfim9",
+     "name": "i40 1.7 VGT 모던",
+     "year": "2012",
+     "km": 199925,
+     "price": 290,
+     "area": "경기도 부천시 오정구",
+     "url": "https://www.daangn.com/kr/cars/i40-1-7-vgt-%EB%AA%A8%EB%8D%98-czmi847jfim9/",
+     "first_seen": "2026-10-21",
+     "new": false,
+     "excluded": "",
+     "tags": "사고2/소유2",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
      "id": "5nfmbzoziaor",
      "name": "i40 2.0 GDi 프리미엄",
      "year": "2012",
@@ -48,21 +63,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고8/소유3",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "czmi847jfim9",
-     "name": "i40 1.7 VGT 모던",
-     "year": "2012",
-     "km": 199925,
-     "price": 300,
-     "area": "경기도 부천시 오정구",
-     "url": "https://www.daangn.com/kr/cars/i40-1-7-vgt-%EB%AA%A8%EB%8D%98-czmi847jfim9/",
-     "first_seen": "2026-10-21",
-     "new": false,
-     "excluded": "",
-     "tags": "사고2/소유2",
      "outer_list": ""
     },
     {
@@ -123,6 +123,21 @@
      "new": false,
      "excluded": "",
      "tags": "사고2/소유2",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "28tu5e2w7qyq",
+     "name": "i40 2.0 GDi 모던",
+     "year": "2012",
+     "km": 119864,
+     "price": 399,
+     "area": "경기도 부천시 오정구",
+     "url": "https://www.daangn.com/kr/cars/i40-2-0-gdi-%EB%AA%A8%EB%8D%98-28tu5e2w7qyq/",
+     "first_seen": "2026-10-22",
+     "new": true,
+     "excluded": "",
+     "tags": "사고4/소유1",
      "outer_list": ""
     },
     {
@@ -247,21 +262,6 @@
     },
     {
      "src": "당근",
-     "id": "tdbzwep4uy17",
-     "name": "아웃백 2.5",
-     "year": "2012",
-     "km": 158184,
-     "price": 580,
-     "area": "경기도 과천시",
-     "url": "https://www.daangn.com/kr/cars/%EC%95%84%EC%9B%83%EB%B0%B1-2-5-tdbzwep4uy17/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고0/소유3",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
      "id": "ve1sa6q8vrxe",
      "name": "i40 1.7 VGT 모던",
      "year": "2012",
@@ -382,21 +382,6 @@
     },
     {
      "src": "당근",
-     "id": "86z3z6r5pgvh",
-     "name": "CLS클래스(2세대) CLS250 CDI 슈팅브레이크",
-     "year": "2014",
-     "km": 180800,
-     "price": 1200,
-     "area": "인천광역시 계양구",
-     "url": "https://www.daangn.com/kr/cars/cls%ED%81%B4%EB%9E%98%EC%8A%A4-2%EC%84%B8%EB%8C%80-cls250-cdi-%EC%8A%88%ED%8C%85%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC-86z3z6r5pgvh/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고6/소유4",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
      "id": "6oasq8wwj8qs",
      "name": "C클래스(4세대) C220 d 4매틱 에스테이트",
      "year": "2016",
@@ -475,23 +460,7 @@
   {
    "key": "offroad",
    "name": "각진 소형 오프로더",
-   "items": [
-    {
-     "src": "당근",
-     "id": "w58mu2i6m8eo",
-     "name": "랭글러(YJ) 2.5",
-     "year": "1992",
-     "km": 150000,
-     "price": 2500,
-     "area": "서울특별시 은평구",
-     "url": "https://www.daangn.com/kr/cars/%EB%9E%AD%EA%B8%80%EB%9F%AC-yj-2-5-4wd-w58mu2i6m8eo/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "수동",
-     "outer_list": ""
-    }
-   ]
+   "items": []
   },
   {
    "key": "suv",

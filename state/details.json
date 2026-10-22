@@ -215,22 +215,6 @@
   "biz": "",
   "area": "경기도 부천시 오정구"
  },
- "d86z3z6r5pgvh": {
-  "gear": "AUTO",
-  "my_acc": 6,
-  "owners": 4,
-  "total_flood": 0,
-  "biz": "",
-  "area": "인천광역시 계양구"
- },
- "dtdbzwep4uy17": {
-  "gear": "CVT",
-  "my_acc": 0,
-  "owners": 3,
-  "total_flood": 0,
-  "biz": "",
-  "area": "경기도 과천시"
- },
  "dq7ccw8uacbqx": {
   "gear": "AUTO",
   "my_acc": 6,
@@ -247,12 +231,12 @@
   "biz": "",
   "area": "경기도 부천시 오정구"
  },
- "dw58mu2i6m8eo": {
-  "gear": "MANUAL",
-  "my_acc": null,
-  "owners": null,
+ "d28tu5e2w7qyq": {
+  "gear": "AUTO",
+  "my_acc": 4,
+  "owners": 1,
   "total_flood": 0,
   "biz": "",
-  "area": "서울특별시 은평구"
+  "area": "경기도 부천시 오정구"
  }
 }
