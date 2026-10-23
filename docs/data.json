@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-22 21:16",
+ "run_at": "2026-10-23 09:02",
  "categories": [
   {
    "key": "wagon",
@@ -135,7 +135,7 @@
      "area": "경기도 부천시 오정구",
      "url": "https://www.daangn.com/kr/cars/i40-2-0-gdi-%EB%AA%A8%EB%8D%98-28tu5e2w7qyq/",
      "first_seen": "2026-10-22",
-     "new": true,
+     "new": false,
      "excluded": "",
      "tags": "사고4/소유1",
      "outer_list": ""
@@ -262,6 +262,21 @@
     },
     {
      "src": "당근",
+     "id": "tdbzwep4uy17",
+     "name": "아웃백 2.5",
+     "year": "2012",
+     "km": 158184,
+     "price": 580,
+     "area": "경기도 과천시",
+     "url": "https://www.daangn.com/kr/cars/%EC%95%84%EC%9B%83%EB%B0%B1-2-5-tdbzwep4uy17/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고0/소유3",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
      "id": "ve1sa6q8vrxe",
      "name": "i40 1.7 VGT 모던",
      "year": "2012",
@@ -378,6 +393,21 @@
      "new": false,
      "excluded": "전손·침수",
      "tags": "사고5/소유5",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "86z3z6r5pgvh",
+     "name": "CLS클래스(2세대) CLS250 CDI 슈팅브레이크",
+     "year": "2014",
+     "km": 180800,
+     "price": 1200,
+     "area": "인천광역시 계양구",
+     "url": "https://www.daangn.com/kr/cars/cls%ED%81%B4%EB%9E%98%EC%8A%A4-2%EC%84%B8%EB%8C%80-cls250-cdi-%EC%8A%88%ED%8C%85%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC-86z3z6r5pgvh/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고6/소유4",
      "outer_list": ""
     },
     {
