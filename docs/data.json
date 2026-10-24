@@ -1,25 +1,10 @@
 {
- "run_at": "2026-10-24 09:02",
+ "run_at": "2026-10-24 21:09",
  "categories": [
   {
    "key": "wagon",
    "name": "웨건",
    "items": [
-    {
-     "src": "당근",
-     "id": "5nfmbzoziaor",
-     "name": "i40 2.0 GDi 프리미엄",
-     "year": "2012",
-     "km": 280024,
-     "price": 230,
-     "area": "서울특별시 강북구",
-     "url": "https://www.daangn.com/kr/cars/i40-2-0-gdi-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-5nfmbzoziaor/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고8/소유3",
-     "outer_list": ""
-    },
     {
      "src": "당근",
      "id": "49wr1ga8egfb",
@@ -232,21 +217,6 @@
     },
     {
      "src": "당근",
-     "id": "tdbzwep4uy17",
-     "name": "아웃백 2.5",
-     "year": "2012",
-     "km": 158184,
-     "price": 580,
-     "area": "경기도 과천시",
-     "url": "https://www.daangn.com/kr/cars/%EC%95%84%EC%9B%83%EB%B0%B1-2-5-tdbzwep4uy17/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고0/소유3",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
      "id": "ve1sa6q8vrxe",
      "name": "i40 1.7 VGT 모던",
      "year": "2012",
@@ -367,6 +337,21 @@
     },
     {
      "src": "당근",
+     "id": "z9hidhgknmkq",
+     "name": "V60 크로스컨트리 D4 섬멈",
+     "year": "2018",
+     "km": 158794,
+     "price": 1200,
+     "area": "서울특별시 마포구",
+     "url": "https://www.daangn.com/kr/cars/v60-%ED%81%AC%EB%A1%9C%EC%8A%A4%EC%BB%A8%ED%8A%B8%EB%A6%AC-d4-%EC%84%AC%EB%A9%88-z9hidhgknmkq/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고0/소유0",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
      "id": "86z3z6r5pgvh",
      "name": "CLS클래스(2세대) CLS250 CDI 슈팅브레이크",
      "year": "2014",
@@ -439,28 +424,29 @@
      "excluded": "",
      "tags": "사고3/소유3",
      "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "z9hidhgknmkq",
-     "name": "V60 크로스컨트리 D4 섬멈",
-     "year": "2018",
-     "km": 158794,
-     "price": 1400,
-     "area": "서울특별시 마포구",
-     "url": "https://www.daangn.com/kr/cars/v60-%ED%81%AC%EB%A1%9C%EC%8A%A4%EC%BB%A8%ED%8A%B8%EB%A6%AC-d4-%EC%84%AC%EB%A9%88-z9hidhgknmkq/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고0/소유0",
-     "outer_list": ""
     }
    ]
   },
   {
    "key": "offroad",
    "name": "각진 소형 오프로더",
-   "items": []
+   "items": [
+    {
+     "src": "당근",
+     "id": "e3ov3mjwecy5",
+     "name": "레토나 디젤 5인승",
+     "year": "1999",
+     "km": 143000,
+     "price": 1200,
+     "area": "경기도 화성시 병점구",
+     "url": "https://www.daangn.com/kr/cars/%EB%A0%88%ED%86%A0%EB%82%98-%EB%94%94%EC%A0%A4-5%EC%9D%B8%EC%8A%B9-e3ov3mjwecy5/",
+     "first_seen": "2026-10-24",
+     "new": true,
+     "excluded": "",
+     "tags": "수동 · 사고2/소유15",
+     "outer_list": ""
+    }
+   ]
   },
   {
    "key": "suv",
