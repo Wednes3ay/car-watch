@@ -15,14 +15,6 @@
   "biz": "",
   "area": "서울특별시 용산구"
  },
- "dqmdpdn63wiw2": {
-  "gear": "AUTO",
-  "my_acc": 6,
-  "owners": 3,
-  "total_flood": 0,
-  "biz": "",
-  "area": "서울특별시 서초구"
- },
  "dea68rrmuyuwd": {
   "gear": "AUTO",
   "my_acc": 2,
@@ -223,12 +215,36 @@
   "biz": "",
   "area": "인천광역시 계양구"
  },
- "de3ov3mjwecy5": {
+ "dw58mu2i6m8eo": {
   "gear": "MANUAL",
-  "my_acc": 2,
-  "owners": 15,
+  "my_acc": null,
+  "owners": null,
   "total_flood": 0,
   "biz": "",
-  "area": "경기도 화성시 병점구"
+  "area": "서울특별시 은평구"
+ },
+ "d8mwj7vw7dud1": {
+  "gear": "AUTO",
+  "my_acc": 2,
+  "owners": 6,
+  "total_flood": 0,
+  "biz": "",
+  "area": "서울특별시 관악구"
+ },
+ "dztwrncsje1bd": {
+  "gear": "AUTO",
+  "my_acc": 2,
+  "owners": 7,
+  "total_flood": 0,
+  "biz": "",
+  "area": "경기도 김포시"
+ },
+ "ded784yvk2gxr": {
+  "gear": "AUTO",
+  "my_acc": null,
+  "owners": null,
+  "total_flood": 0,
+  "biz": "",
+  "area": "서울특별시 은평구"
  }
 }

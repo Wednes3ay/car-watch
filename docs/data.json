@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-24 21:09",
+ "run_at": "2026-10-25 08:57",
  "categories": [
   {
    "key": "wagon",
@@ -292,21 +292,6 @@
     },
     {
      "src": "당근",
-     "id": "qmdpdn63wiw2",
-     "name": "3시리즈(6세대) 투어링 320d",
-     "year": "2015",
-     "km": 156941,
-     "price": 1200,
-     "area": "서울특별시 서초구",
-     "url": "https://www.daangn.com/kr/cars/3%EC%8B%9C%EB%A6%AC%EC%A6%88-6%EC%84%B8%EB%8C%80-%ED%88%AC%EC%96%B4%EB%A7%81-320d-qmdpdn63wiw2/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고6/소유3",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
      "id": "ea68rrmuyuwd",
      "name": "3시리즈(6세대) 투어링 320d M 퍼포먼스 에디션",
      "year": "2015",
@@ -433,17 +418,62 @@
    "items": [
     {
      "src": "당근",
-     "id": "e3ov3mjwecy5",
-     "name": "레토나 디젤 5인승",
-     "year": "1999",
-     "km": 143000,
-     "price": 1200,
-     "area": "경기도 화성시 병점구",
-     "url": "https://www.daangn.com/kr/cars/%EB%A0%88%ED%86%A0%EB%82%98-%EB%94%94%EC%A0%A4-5%EC%9D%B8%EC%8A%B9-e3ov3mjwecy5/",
-     "first_seen": "2026-10-24",
-     "new": true,
+     "id": "8mwj7vw7dud1",
+     "name": "뉴코란도 밴 602EL",
+     "year": "2003",
+     "km": 230047,
+     "price": 450,
+     "area": "서울특별시 관악구",
+     "url": "https://www.daangn.com/kr/cars/%EB%89%B4%EC%BD%94%EB%9E%80%EB%8F%84-%EB%B0%B4-602el-8mwj7vw7dud1/",
+     "first_seen": "2000-01-01",
+     "new": false,
      "excluded": "",
-     "tags": "수동 · 사고2/소유15",
+     "tags": "사고2/소유6",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "ztwrncsje1bd",
+     "name": "뉴코란도 밴 602EL 최고급형",
+     "year": "2003",
+     "km": 89000,
+     "price": 500,
+     "area": "경기도 김포시",
+     "url": "https://www.daangn.com/kr/cars/%EB%89%B4%EC%BD%94%EB%9E%80%EB%8F%84-%EB%B0%B4-602el-%EC%B5%9C%EA%B3%A0%EA%B8%89%ED%98%95-ztwrncsje1bd/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고2/소유7",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "ed784yvk2gxr",
+     "name": "갤로퍼II 밴 숏바디",
+     "year": "2001",
+     "km": 220000,
+     "price": 600,
+     "area": "서울특별시 은평구",
+     "url": "https://www.daangn.com/kr/cars/%EA%B0%A4%EB%A1%9C%ED%8D%BC-m-%EC%88%8F%EB%B3%B4%EB%94%94-%EB%B0%B4-%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%EC%85%98-%EC%9D%B8%ED%84%B0%EC%BF%A8%EB%9F%AC-%ED%84%B0%EB%B3%B4-ed784yvk2gxr/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "w58mu2i6m8eo",
+     "name": "랭글러(YJ) 2.5",
+     "year": "1992",
+     "km": 150000,
+     "price": 2500,
+     "area": "서울특별시 은평구",
+     "url": "https://www.daangn.com/kr/cars/%EB%9E%AD%EA%B8%80%EB%9F%AC-yj-2-5-4wd-w58mu2i6m8eo/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "수동",
      "outer_list": ""
     }
    ]
