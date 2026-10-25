@@ -1,25 +1,10 @@
 {
- "run_at": "2026-10-25 08:57",
+ "run_at": "2026-10-25 21:08",
  "categories": [
   {
    "key": "wagon",
    "name": "웨건",
    "items": [
-    {
-     "src": "당근",
-     "id": "49wr1ga8egfb",
-     "name": "i40 1.7 VGT PYL",
-     "year": "2014",
-     "km": 207024,
-     "price": 260,
-     "area": "경기도 부천시 오정구",
-     "url": "https://www.daangn.com/kr/cars/i40-1-7-vgt-pyl-49wr1ga8egfb/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고6/소유3",
-     "outer_list": ""
-    },
     {
      "src": "당근",
      "id": "y2hcvdffi79t",
@@ -481,7 +466,143 @@
   {
    "key": "suv",
    "name": "작은 SUV",
-   "items": []
+   "items": [
+    {
+     "src": "당근",
+     "id": "4swv4wii4see",
+     "name": "레니게이드 2.0 디젤 AWD 론지튜드",
+     "year": "2017",
+     "km": 71334,
+     "price": 680,
+     "area": "경기도 부천시 원미구",
+     "url": "https://www.daangn.com/kr/cars/%EB%A0%88%EB%8B%88%EA%B2%8C%EC%9D%B4%EB%93%9C-2-0-%EB%94%94%EC%A0%A4-awd-%EB%A1%A0%EC%A7%80%ED%8A%9C%EB%93%9C-4swv4wii4see/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고5/소유0",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "tvuvvnrzjksi",
+     "name": "레니게이드 2.0 디젤 AWD 론지튜드",
+     "year": "2015",
+     "km": 86740,
+     "price": 740,
+     "area": "경기도 부천시 원미구",
+     "url": "https://www.daangn.com/kr/cars/%EB%A0%88%EB%8B%88%EA%B2%8C%EC%9D%B4%EB%93%9C-2-0-%EB%94%94%EC%A0%A4-awd-%EB%A1%A0%EC%A7%80%ED%8A%9C%EB%93%9C-tvuvvnrzjksi/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고0/소유5 · 렌트",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "1u72b18oocpg",
+     "name": "C3 에어크로스 1.5 Blue-HDi 샤인팩",
+     "year": "2019",
+     "km": 95000,
+     "price": 790,
+     "area": "경기도 부천시 원미구",
+     "url": "https://www.daangn.com/kr/cars/c3-%EC%97%90%EC%96%B4%ED%81%AC%EB%A1%9C%EC%8A%A4-1-5-blue-hdi-%EC%83%A4%EC%9D%B8%ED%8C%A9-1u72b18oocpg/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고0/소유1",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "axmor38ttt6c",
+     "name": "컴패스 2.4 리미티드",
+     "year": "2017",
+     "km": 76002,
+     "price": 799,
+     "area": "서울특별시 강남구",
+     "url": "https://www.daangn.com/kr/cars/%EC%BB%B4%ED%8C%A8%EC%8A%A4-2-4-%EB%A6%AC%EB%AF%B8%ED%8B%B0%EB%93%9C-axmor38ttt6c/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고0/소유5",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "1du778a6gzv4",
+     "name": "컴패스(MP) 2.4 AWD 론지튜드",
+     "year": "2019",
+     "km": 39849,
+     "price": 850,
+     "area": "경기도 부천시 오정구",
+     "url": "https://www.daangn.com/kr/cars/%EC%BB%B4%ED%8C%A8%EC%8A%A4-mp-2-4-awd-%EB%A1%A0%EC%A7%80%ED%8A%9C%EB%93%9C-1du778a6gzv4/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고3/소유0",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "i4trqiai7kdh",
+     "name": "레니게이드 2.4 가솔린 론지튜드",
+     "year": "2016",
+     "km": 98655,
+     "price": 870,
+     "area": "경기도 부천시 오정구",
+     "url": "https://www.daangn.com/kr/cars/%EB%A0%88%EB%8B%88%EA%B2%8C%EC%9D%B4%EB%93%9C-2-4-%EA%B0%80%EC%86%94%EB%A6%B0-%EB%A1%A0%EC%A7%80%ED%8A%9C%EB%93%9C-i4trqiai7kdh/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "6k91c8ibmprm",
+     "name": "레니게이드 2.0 디젤 AWD 리미티드",
+     "year": "2018",
+     "km": 87072,
+     "price": 989,
+     "area": "경기도 부천시 원미구",
+     "url": "https://www.daangn.com/kr/cars/%EB%A0%88%EB%8B%88%EA%B2%8C%EC%9D%B4%EB%93%9C-2-0-%EB%94%94%EC%A0%A4-awd-%EB%A6%AC%EB%AF%B8%ED%8B%B0%EB%93%9C-6k91c8ibmprm/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고0/소유3 · 렌트",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "crx977bfex79",
+     "name": "레니게이드 2.4 가솔린 론지튜드",
+     "year": "2016",
+     "km": 45228,
+     "price": 990,
+     "area": "서울특별시 강서구",
+     "url": "https://www.daangn.com/kr/cars/%EB%A0%88%EB%8B%88%EA%B2%8C%EC%9D%B4%EB%93%9C-2-4-%EA%B0%80%EC%86%94%EB%A6%B0-%EB%A1%A0%EC%A7%80%ED%8A%9C%EB%93%9C-crx977bfex79/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고1/소유1",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "7ewfu3igmpk9",
+     "name": "컴패스(MP) 2.4 AWD 리미티드",
+     "year": "2019",
+     "km": 95700,
+     "price": 1150,
+     "area": "서울특별시 동작구",
+     "url": "https://www.daangn.com/kr/cars/%EC%BB%B4%ED%8C%A8%EC%8A%A4-mp-2-4-awd-%EB%A6%AC%EB%AF%B8%ED%8B%B0%EB%93%9C-7ewfu3igmpk9/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고2/소유0",
+     "outer_list": ""
+    }
+   ]
   }
  ],
  "warnings": [
