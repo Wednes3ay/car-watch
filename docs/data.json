@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-26 08:58",
+ "run_at": "2026-10-26 23:08",
  "categories": [
   {
    "key": "wagon",
@@ -277,6 +277,21 @@
     },
     {
      "src": "당근",
+     "id": "f1vyu1agqcr6",
+     "name": "골프(3세대) 1.8 웨건",
+     "year": "1997",
+     "km": 230000,
+     "price": 1150,
+     "area": "서울특별시 용산구",
+     "url": "https://www.daangn.com/kr/cars/%EA%B3%A8%ED%94%84-3%EC%84%B8%EB%8C%80-1-8-%EC%9B%A8%EA%B1%B4-f1vyu1agqcr6/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고4/소유13",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
      "id": "ea68rrmuyuwd",
      "name": "3시리즈(6세대) 투어링 320d M 퍼포먼스 에디션",
      "year": "2015",
@@ -348,21 +363,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고5/소유2",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "f1vyu1agqcr6",
-     "name": "골프(3세대) 1.8 웨건",
-     "year": "1997",
-     "km": 230000,
-     "price": 1300,
-     "area": "서울특별시 용산구",
-     "url": "https://www.daangn.com/kr/cars/%EA%B3%A8%ED%94%84-3%EC%84%B8%EB%8C%80-1-8-%EC%9B%A8%EA%B1%B4-f1vyu1agqcr6/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고4/소유13",
      "outer_list": ""
     },
     {
