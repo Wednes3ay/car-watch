@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-26 23:08",
+ "run_at": "2026-10-27 09:05",
  "categories": [
   {
    "key": "wagon",
@@ -232,6 +232,21 @@
     },
     {
      "src": "당근",
+     "id": "pe5e3grjugrq",
+     "name": "i40 1.7 VGT 프리미엄",
+     "year": "2012",
+     "km": 157333,
+     "price": 830,
+     "area": "경기도 안산시 단원구",
+     "url": "https://www.daangn.com/kr/cars/i40-%EC%99%9C%EA%B1%B4-vf-1-7-vgt-fwd-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-pe5e3grjugrq/",
+     "first_seen": "2026-10-27",
+     "new": true,
+     "excluded": "",
+     "tags": "사고2/소유3",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
      "id": "qremany3y2sr",
      "name": "V60 크로스컨트리 2.5 T5 AWD",
      "year": "2016",
@@ -273,6 +288,21 @@
      "new": false,
      "excluded": "",
      "tags": "사고4/소유6",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "o5tdiydd2b47",
+     "name": "3시리즈(6세대) 투어링 320d",
+     "year": "2014",
+     "km": 173500,
+     "price": 1100,
+     "area": "경기도 화성시 만세구",
+     "url": "https://www.daangn.com/kr/cars/3%EC%8B%9C%EB%A6%AC%EC%A6%88-6%EC%84%B8%EB%8C%80-%ED%88%AC%EC%96%B4%EB%A7%81-320d-o5tdiydd2b47/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고7/소유4",
      "outer_list": ""
     },
     {
