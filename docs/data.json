@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-29 09:11",
+ "run_at": "2026-10-29 21:22",
  "categories": [
   {
    "key": "wagon",
@@ -337,21 +337,6 @@
     },
     {
      "src": "당근",
-     "id": "86z3z6r5pgvh",
-     "name": "CLS클래스(2세대) CLS250 CDI 슈팅브레이크",
-     "year": "2014",
-     "km": 180800,
-     "price": 1200,
-     "area": "인천광역시 계양구",
-     "url": "https://www.daangn.com/kr/cars/cls%ED%81%B4%EB%9E%98%EC%8A%A4-2%EC%84%B8%EB%8C%80-cls250-cdi-%EC%8A%88%ED%8C%85%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC-86z3z6r5pgvh/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고6/소유4",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
      "id": "6oasq8wwj8qs",
      "name": "C클래스(4세대) C220 d 4매틱 에스테이트",
      "year": "2016",
@@ -363,6 +348,21 @@
      "new": false,
      "excluded": "",
      "tags": "사고5/소유2",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "86z3z6r5pgvh",
+     "name": "CLS클래스(2세대) CLS250 CDI 슈팅브레이크",
+     "year": "2014",
+     "km": 180800,
+     "price": 1300,
+     "area": "인천광역시 계양구",
+     "url": "https://www.daangn.com/kr/cars/cls%ED%81%B4%EB%9E%98%EC%8A%A4-2%EC%84%B8%EB%8C%80-cls250-cdi-%EC%8A%88%ED%8C%85%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC-86z3z6r5pgvh/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고6/소유4",
      "outer_list": ""
     },
     {
@@ -452,9 +452,9 @@
      "name": "갤로퍼II 밴 숏바디",
      "year": "2001",
      "km": 220000,
-     "price": 600,
+     "price": 590,
      "area": "서울특별시 은평구",
-     "url": "https://www.daangn.com/kr/cars/%EA%B0%A4%EB%A1%9C%ED%8D%BC-m-%EC%88%8F%EB%B3%B4%EB%94%94-%EB%B0%B4-%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%EC%85%98-%EC%9D%B8%ED%84%B0%EC%BF%A8%EB%9F%AC-%ED%84%B0%EB%B3%B4-ed784yvk2gxr/",
+     "url": "https://www.daangn.com/kr/cars/%EA%B0%A4%EB%A1%9C%ED%8D%BCii-%EB%B0%B4-%EC%88%8F%EB%B0%94%EB%94%94-ed784yvk2gxr/",
      "first_seen": "2000-01-01",
      "new": false,
      "excluded": "",
