@@ -63,14 +63,6 @@
   "biz": "",
   "area": "서울특별시 영등포구"
  },
- "dsxypy6y3dmrx": {
-  "gear": "AUTO",
-  "my_acc": 3,
-  "owners": 3,
-  "total_flood": 0,
-  "biz": "렌트",
-  "area": "서울특별시 영등포구"
- },
  "dy2hcvdffi79t": {
   "gear": "AUTO",
   "my_acc": 4,
@@ -286,5 +278,29 @@
   "total_flood": 0,
   "biz": "",
   "area": "서울특별시 동작구"
+ },
+ "do5tdiydd2b47": {
+  "gear": "AUTO",
+  "my_acc": 8,
+  "owners": 4,
+  "total_flood": 0,
+  "biz": "",
+  "area": "경기도 화성시 만세구"
+ },
+ "diyzavx6sdi7k": {
+  "gear": "CVT",
+  "my_acc": 1,
+  "owners": 1,
+  "total_flood": 0,
+  "biz": "",
+  "area": "서울특별시 서대문구"
+ },
+ "d1u72b18oocpg": {
+  "gear": "AUTO",
+  "my_acc": 0,
+  "owners": 1,
+  "total_flood": 0,
+  "biz": "",
+  "area": "경기도 부천시 원미구"
  }
 }

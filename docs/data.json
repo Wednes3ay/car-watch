@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-30 21:22",
+ "run_at": "2026-10-31 09:12",
  "categories": [
   {
    "key": "wagon",
@@ -108,21 +108,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고6/소유5",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "sxypy6y3dmrx",
-     "name": "i40 1.7 VGT 스마트",
-     "year": "2012",
-     "km": 274662,
-     "price": 450,
-     "area": "서울특별시 영등포구",
-     "url": "https://www.daangn.com/kr/cars/i40-1-7-vgt-%EC%8A%A4%EB%A7%88%ED%8A%B8-sxypy6y3dmrx/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고3/소유3 · 렌트",
      "outer_list": ""
     },
     {
@@ -258,6 +243,21 @@
      "new": false,
      "excluded": "",
      "tags": "사고1/소유6",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "o5tdiydd2b47",
+     "name": "3시리즈(6세대) 투어링 320d",
+     "year": "2014",
+     "km": 173500,
+     "price": 1100,
+     "area": "경기도 화성시 만세구",
+     "url": "https://www.daangn.com/kr/cars/3%EC%8B%9C%EB%A6%AC%EC%A6%88-6%EC%84%B8%EB%8C%80-%ED%88%AC%EC%96%B4%EB%A7%81-320d-o5tdiydd2b47/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고8/소유4",
      "outer_list": ""
     },
     {
@@ -469,6 +469,21 @@
    "items": [
     {
      "src": "당근",
+     "id": "iyzavx6sdi7k",
+     "name": "컴패스 2.4 리미티드",
+     "year": "2015",
+     "km": 96900,
+     "price": 630,
+     "area": "서울특별시 서대문구",
+     "url": "https://www.daangn.com/kr/cars/%EC%BB%B4%ED%8C%A8%EC%8A%A4-2-4-%EB%A6%AC%EB%AF%B8%ED%8B%B0%EB%93%9C-iyzavx6sdi7k/",
+     "first_seen": "2026-10-31",
+     "new": true,
+     "excluded": "",
+     "tags": "사고1/소유1",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
      "id": "4swv4wii4see",
      "name": "레니게이드 2.0 디젤 AWD 론지튜드",
      "year": "2017",
@@ -480,6 +495,21 @@
      "new": false,
      "excluded": "",
      "tags": "사고5/소유0",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "1u72b18oocpg",
+     "name": "C3 에어크로스 1.5 Blue-HDi 샤인팩",
+     "year": "2019",
+     "km": 95000,
+     "price": 790,
+     "area": "경기도 부천시 원미구",
+     "url": "https://www.daangn.com/kr/cars/c3-%EC%97%90%EC%96%B4%ED%81%AC%EB%A1%9C%EC%8A%A4-1-5-blue-hdi-%EC%83%A4%EC%9D%B8%ED%8C%A9-1u72b18oocpg/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고0/소유1",
      "outer_list": ""
     },
     {
