@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-01 09:09",
+ "run_at": "2026-11-01 21:19",
  "categories": [
   {
    "key": "wagon",
@@ -48,21 +48,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고3/소유4",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "rvhpwrxw95er",
-     "name": "308(1세대) SW 1.6 e-HDi",
-     "year": "2013",
-     "km": 164000,
-     "price": 350,
-     "area": "서울특별시 강남구",
-     "url": "https://www.daangn.com/kr/cars/308-1%EC%84%B8%EB%8C%80-sw-1-6-e-hdi-rvhpwrxw95er/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "전손·침수",
-     "tags": "사고3/소유6",
      "outer_list": ""
     },
     {
@@ -138,21 +123,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고2/소유3",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "oczknjiipt1f",
-     "name": "308(2세대) SW 1.6 BlueHDi 알뤼르",
-     "year": "2016",
-     "km": 117802,
-     "price": 450,
-     "area": "경기도 부천시 오정구",
-     "url": "https://www.daangn.com/kr/cars/308-2%EC%84%B8%EB%8C%80-sw-1-6-bluehdi-%EC%95%8C%EB%A4%BC%EB%A5%B4-oczknjiipt1f/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "",
      "outer_list": ""
     },
     {
@@ -318,36 +288,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고2/소유3",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "6oasq8wwj8qs",
-     "name": "C클래스(4세대) C220 d 4매틱 에스테이트",
-     "year": "2016",
-     "km": 191125,
-     "price": 1260,
-     "area": "경기도 부천시 오정구",
-     "url": "https://www.daangn.com/kr/cars/c%ED%81%B4%EB%9E%98%EC%8A%A4-4%EC%84%B8%EB%8C%80-c220-d-4%EB%A7%A4%ED%8B%B1-%EC%97%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8-6oasq8wwj8qs/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고5/소유2",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "86z3z6r5pgvh",
-     "name": "CLS클래스(2세대) CLS250 CDI 슈팅브레이크",
-     "year": "2014",
-     "km": 180800,
-     "price": 1300,
-     "area": "인천광역시 계양구",
-     "url": "https://www.daangn.com/kr/cars/cls%ED%81%B4%EB%9E%98%EC%8A%A4-2%EC%84%B8%EB%8C%80-cls250-cdi-%EC%8A%88%ED%8C%85%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC-86z3z6r5pgvh/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고6/소유4",
      "outer_list": ""
     },
     {
