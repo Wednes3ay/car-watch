@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-31 21:18",
+ "run_at": "2026-11-01 09:09",
  "categories": [
   {
    "key": "wagon",
@@ -90,7 +90,7 @@
      "area": "경기도 부천시 원미구",
      "url": "https://www.daangn.com/kr/cars/i30cw-1-6-vvt-%EB%9F%AD%EC%85%94%EB%A6%AC-9a2kisrptrmk/",
      "first_seen": "2026-10-31",
-     "new": true,
+     "new": false,
      "excluded": "",
      "tags": "사고2/소유4",
      "outer_list": ""
