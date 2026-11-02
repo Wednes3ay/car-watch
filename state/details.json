@@ -166,5 +166,37 @@
   "total_flood": 0,
   "biz": "",
   "area": "경기도 부천시 원미구"
+ },
+ "drvhpwrxw95er": {
+  "gear": "AUTO",
+  "my_acc": 3,
+  "owners": 6,
+  "total_flood": 1,
+  "biz": "",
+  "area": "서울특별시 강남구"
+ },
+ "doczknjiipt1f": {
+  "gear": "AUTO",
+  "my_acc": 0,
+  "owners": 3,
+  "total_flood": 0,
+  "biz": "",
+  "area": "경기도 부천시 오정구"
+ },
+ "d6oasq8wwj8qs": {
+  "gear": "AUTO",
+  "my_acc": 5,
+  "owners": 2,
+  "total_flood": 0,
+  "biz": "",
+  "area": "경기도 부천시 오정구"
+ },
+ "d86z3z6r5pgvh": {
+  "gear": "AUTO",
+  "my_acc": 6,
+  "owners": 4,
+  "total_flood": 0,
+  "biz": "",
+  "area": "인천광역시 계양구"
  }
 }
