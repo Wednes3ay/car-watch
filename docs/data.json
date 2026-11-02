@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-02 09:10",
+ "run_at": "2026-11-02 21:39",
  "categories": [
   {
    "key": "wagon",
@@ -97,21 +97,6 @@
     },
     {
      "src": "당근",
-     "id": "28tu5e2w7qyq",
-     "name": "i40 2.0 GDi 모던",
-     "year": "2012",
-     "km": 119864,
-     "price": 399,
-     "area": "경기도 부천시 오정구",
-     "url": "https://www.daangn.com/kr/cars/i40-2-0-gdi-%EB%AA%A8%EB%8D%98-28tu5e2w7qyq/",
-     "first_seen": "2026-10-22",
-     "new": false,
-     "excluded": "",
-     "tags": "사고4/소유1",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
      "id": "q7ccw8uacbqx",
      "name": "i40 1.7 VGT 모던",
      "year": "2012",
@@ -123,6 +108,21 @@
      "new": false,
      "excluded": "",
      "tags": "사고6/소유5",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "28tu5e2w7qyq",
+     "name": "i40 2.0 GDi 모던",
+     "year": "2012",
+     "km": 119864,
+     "price": 399,
+     "area": "경기도 부천시 오정구",
+     "url": "https://www.daangn.com/kr/cars/i40-2-0-gdi-%EB%AA%A8%EB%8D%98-28tu5e2w7qyq/",
+     "first_seen": "2026-10-22",
+     "new": false,
+     "excluded": "",
+     "tags": "사고4/소유1",
      "outer_list": ""
     },
     {
