@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-02 21:39",
+ "run_at": "2026-11-03 09:12",
  "categories": [
   {
    "key": "wagon",
@@ -265,14 +265,29 @@
      "id": "z9hidhgknmkq",
      "name": "V60 크로스컨트리 D4 섬멈",
      "year": "2018",
-     "km": 158794,
-     "price": 1100,
+     "km": 159000,
+     "price": 1000,
      "area": "서울특별시 마포구",
      "url": "https://www.daangn.com/kr/cars/v60-%ED%81%AC%EB%A1%9C%EC%8A%A4%EC%BB%A8%ED%8A%B8%EB%A6%AC-d4-%EC%84%AC%EB%A9%88-z9hidhgknmkq/",
      "first_seen": "2000-01-01",
      "new": false,
      "excluded": "",
      "tags": "사고0/소유0",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "o5tdiydd2b47",
+     "name": "3시리즈(6세대) 투어링 320d",
+     "year": "2014",
+     "km": 173500,
+     "price": 1100,
+     "area": "경기도 화성시 만세구",
+     "url": "https://www.daangn.com/kr/cars/3%EC%8B%9C%EB%A6%AC%EC%A6%88-6%EC%84%B8%EB%8C%80-%ED%88%AC%EC%96%B4%EB%A7%81-320d-o5tdiydd2b47/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "사고8/소유4",
      "outer_list": ""
     },
     {
