@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-03 09:12",
+ "run_at": "2026-11-03 21:38",
  "categories": [
   {
    "key": "wagon",
@@ -48,21 +48,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고3/소유4",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "9a2kisrptrmk",
-     "name": "i30cw 1.6 VVT 럭셔리",
-     "year": "2011",
-     "km": 75916,
-     "price": 350,
-     "area": "경기도 부천시 원미구",
-     "url": "https://www.daangn.com/kr/cars/i30cw-1-6-vvt-%EB%9F%AD%EC%85%94%EB%A6%AC-9a2kisrptrmk/",
-     "first_seen": "2026-10-31",
-     "new": false,
-     "excluded": "",
-     "tags": "사고2/소유4",
      "outer_list": ""
     },
     {
@@ -127,6 +112,21 @@
     },
     {
      "src": "당근",
+     "id": "wxzj21sbsu4o",
+     "name": "i30cw 1.6 VVT 럭셔리",
+     "year": "2010",
+     "km": 108000,
+     "price": 430,
+     "area": "서울특별시 금천구",
+     "url": "https://www.daangn.com/kr/cars/i30cw-1-6-vvt-%EB%9F%AD%EC%85%94%EB%A6%AC-wxzj21sbsu4o/",
+     "first_seen": "2000-01-01",
+     "new": false,
+     "excluded": "",
+     "tags": "수동 · 사고1/소유9",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
      "id": "5x11bhnouc59",
      "name": "i40 1.7 VGT 스마트",
      "year": "2012",
@@ -168,21 +168,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고3/소유1",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "wxzj21sbsu4o",
-     "name": "i30cw 1.6 VVT 럭셔리",
-     "year": "2010",
-     "km": 108000,
-     "price": 470,
-     "area": "서울특별시 금천구",
-     "url": "https://www.daangn.com/kr/cars/i30cw-1-6-vvt-%EB%9F%AD%EC%85%94%EB%A6%AC-wxzj21sbsu4o/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "수동 · 사고1/소유9",
      "outer_list": ""
     },
     {
@@ -273,21 +258,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고0/소유0",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "o5tdiydd2b47",
-     "name": "3시리즈(6세대) 투어링 320d",
-     "year": "2014",
-     "km": 173500,
-     "price": 1100,
-     "area": "경기도 화성시 만세구",
-     "url": "https://www.daangn.com/kr/cars/3%EC%8B%9C%EB%A6%AC%EC%A6%88-6%EC%84%B8%EB%8C%80-%ED%88%AC%EC%96%B4%EB%A7%81-320d-o5tdiydd2b47/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고8/소유4",
      "outer_list": ""
     },
     {
