@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-04 21:34",
+ "run_at": "2026-11-05 09:21",
  "categories": [
   {
    "key": "wagon",
@@ -123,6 +123,21 @@
      "new": false,
      "excluded": "",
      "tags": "수동 · 사고1/소유9",
+     "outer_list": ""
+    },
+    {
+     "src": "당근",
+     "id": "4b7qbw3txoru",
+     "name": "i40 1.7 VGT PYL",
+     "year": "2014",
+     "km": 201913,
+     "price": 450,
+     "area": "경기도 고양시 일산동구",
+     "url": "https://www.daangn.com/kr/cars/i40-1-7-vgt-pyl-4b7qbw3txoru/",
+     "first_seen": "2026-11-05",
+     "new": true,
+     "excluded": "",
+     "tags": "사고2/소유1",
      "outer_list": ""
     },
     {
@@ -507,7 +522,7 @@
      "area": "경기도 김포시",
      "url": "https://www.daangn.com/kr/cars/%EB%A0%88%EB%8B%88%EA%B2%8C%EC%9D%B4%EB%93%9C-2-4-%EA%B0%80%EC%86%94%EB%A6%B0-%EB%A1%A0%EC%A7%80%ED%8A%9C%EB%93%9C-9vttmt659k5v/",
      "first_seen": "2026-11-04",
-     "new": true,
+     "new": false,
      "excluded": "",
      "tags": "사고1/소유0",
      "outer_list": ""
