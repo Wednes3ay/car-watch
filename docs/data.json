@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-05 21:42",
+ "run_at": "2026-11-06 09:18",
  "categories": [
   {
    "key": "wagon",
@@ -213,21 +213,6 @@
      "new": false,
      "excluded": "",
      "tags": "사고1/소유3",
-     "outer_list": ""
-    },
-    {
-     "src": "당근",
-     "id": "qremany3y2sr",
-     "name": "V60 크로스컨트리 2.5 T5 AWD",
-     "year": "2016",
-     "km": 123892,
-     "price": 890,
-     "area": "경기도 부천시 원미구",
-     "url": "https://www.daangn.com/kr/cars/v60-%ED%81%AC%EB%A1%9C%EC%8A%A4%EC%BB%A8%ED%8A%B8%EB%A6%AC-2-5-t5-awd-qremany3y2sr/",
-     "first_seen": "2000-01-01",
-     "new": false,
-     "excluded": "",
-     "tags": "사고6/소유3",
      "outer_list": ""
     },
     {
